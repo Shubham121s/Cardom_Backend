@@ -24,7 +24,7 @@ function isDevelopmentMode() {
 }
 
 const getCorsSettings = () => {
-  const allowlist = ["https://cardom.netlify.app", "https://cardom.app"];
+  const allowlist = [ "https://cardom.app"];
 
   /**
    * Origin: true => CORS is allowed
